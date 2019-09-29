@@ -1,0 +1,59 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight">
+        <!-- Customize your theme here. -->
+        <!-- Top App Bar -->
+        <item name="colorPrimary">@color/iDroid_colorAccent</item>                         <!-- Top App Bar Override -->
+        <item name="android:colorPrimaryDark">@color/iDroid_statusBar</item>               <!-- Status Bar -->
+
+        <item name="android:textColorPrimary">@color/iDroid_backgroundColor</item>         <!-- Top Bar Text & Icons -->
+        <item name="android:textColorSecondary">@color/iDroid_textColor</item>             <!-- Settings summary text -->
+        <!--<item name="android:textColorTertiary">@color/backgroundColor</item>--> <!-- UNKNOWN -->
+
+        <!-- General -->
+        <item name="android:windowBackground">@color/iDroid_backgroundColor</item>         <!-- Background -->
+        <item name="colorAccent">@color/iDroid_colorAccent</item>                          <!-- Set color of indicators such as radio button and slider highlights -->
+        <item name="android:textColor">@color/iDroid_textColor</item>                      <!-- Basic Text Color -->
+
+        <!-- Options Menu -->
+        <item name="android:itemBackground">@color/iDroid_statusBar</item>
+
+        <!-- Styles for specific objects -->
+        <item name="android:radioButtonStyle">@style/iDroid_RadioButtonStyle</item>
+
+        <item name="alertDialogTheme">@style/iDroid_AlertDialogTheme</item>
+    </style>
+
+    <!-- Alert Dialog Style -->
+    <style name="iDroid_AlertDialogTheme" parent="ThemeOverlay.AppCompat.Dialog.Alert">
+        <item name="android:background">@color/iDroid_statusBar</item>                     <!-- Set background for Dialog -->
+        <item name="textColorAlertDialogListItem">@color/iDroid_textColor</item>
+
+        <item name="android:textColorPrimary">@color/iDroid_textColor</item>
+    </style>
+
+    <!-- Radio Button Style -->
+    <style name="iDroid_RadioButtonStyle" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:textColor">@color/iDroid_colorAccent</item>
+        <item name="android:buttonTint">@color/iDroid_colorAccent</item>
+        <item name="android:colorAccent">@color/iDroid_colorAccent</item>
+        <item name="colorAccent">@color/iDroid_colorAccent</item>
+    </style>
+
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme2" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <!--
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        -->
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="AppTheme"/>
+    <style name="AppTheme.PopupOverlay" parent="AppTheme"/>
+</resources>

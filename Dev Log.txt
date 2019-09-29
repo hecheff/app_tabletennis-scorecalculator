@@ -1,0 +1,64 @@
+TO-DO LIST:
+    - Expandable menu to show game progress flow
+    - Change DATETIME format to string (epoch?)
+    - Add "CLEAR ALL" function to easily erase all records off database
+        - Also makes it easier to reset database and update it
+        - Add delete prompt for confirmation
+
+2019/08/04: 0.50 (6)
+    -  Added 11-Score Mode
+        - Toggle in Settings options menu
+        - Display for showing score mode added on top menu
+
+2019/07/28:
+    - "Clear Records" option now restarts app
+        - Effectively resetting it.
+
+2019/07/21: 0.45 (5)
+    - Replaced "Clear Records" button in place of options menu access
+       - Improves screen space usage this way
+
+2019/07/08: 0.43 (4)
+    - Fixed crash bug when no records available when opening Records Activity
+
+2019/07/07: 0.42 (3)
+    - Activity change score reset bug fixed
+
+2019/07/06: 0.38 (3)
+    - Established RecyclerView for populating lists
+    - Database read functional
+    - BUG: Need to stop game from resetting when entering menus
+
+2019/07/01: 0.35 (2)
+    - Added session records
+    - Placeholder Icon added
+
+2019/06/30: 0.3 (1)
+    - Layout updated
+    - Win counter implemented
+    - Last Score implemented
+    - Backgrounds added
+    - Version number established
+    - Swapping enabled for backgrounds
+    - Advantage scorekeeping added
+    - Toast notices temporarily disabled
+    -
+
+2019/06/29:
+    - Layout updated
+    - Added 2D arrays for recording
+
+2019/06/26:
+    - Basic algorithms drafted for basic functions
+    - UI updated to allow more contents
+    - Added server (serving player) swap at 5 points
+        - Can be triggered multiple times by +1/-1 continuously when total score is divisible by 5
+            - Not a serious issue, can be treated as a crude forced server-switch
+    - May need to improve UI. Very cramped in center
+        - Move PLAYER 1 and PLAYER 2 labels to sides?
+
+2019/06/25:
+    - Project established
+    - Foundation work started
+        - Basic layout plans made
+        - Basic specifications and features

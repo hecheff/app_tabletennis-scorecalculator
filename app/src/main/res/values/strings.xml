@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Sports Scorekeeper: Table Tennis</string>
+    <string name="action_settings">Settings</string>
+    <string name="pastRecords_string">Game Records</string>
+    <string name="player1_string">PLAYER 1</string>
+    <string name="player2_string">PLAYER 2</string>
+    <string name="server_string">SERVE</string>
+    <string name="sidesSwapped_string">Sides swapped.</string>
+    <string name="serverChange_string">Serving side changed.</string>
+    <string name="wins_string">WINS</string>
+    <string name="plus_string">+</string>
+    <string name="minus_string">-</string>
+    <string name="swap_string">SWAP</string>
+    <string name="advantage_string">ADVANTAGE</string>
+    <string name="advantage_player1_string">Player 1 Advantage</string>
+    <string name="advantage_player2_string">Player 2 Advantage</string>
+    <string name="deuce_string">Deuce</string>
+    <string name="no_records_found_string">No records found!</string>
+    <string name="clearGameRecords_string">Clear Game Records</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="scoreMode21_string">21 Score Mode</string>
+    <string name="scoreMode11_string">11 Score Mode</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- (MGSV iDroid) -->
+    <color name="iDroid_colorPrimary">#FFFFFF</color>
+    <color name="iDroid_colorPrimaryDark">#053251</color>
+    <color name="iDroid_colorAccent">#DCFEFF</color>
+    <color name="iDroid_statusBar">#2C6788</color>
+
+    <color name="iDroid_titleTextColor">#ECCB3F</color>
+    <color name="iDroid_textColor">#FFFFFF</color>
+    <color name="iDroid_backgroundColor">#38789A</color>
+    <color name="iDroid_backgroundColorDarker">#043049</color>
+
+    <color name="iDroid_bg_player1">#3F51B5</color>
+    <color name="iDroid_bg_player2">#E91E63</color>
+</resources>
